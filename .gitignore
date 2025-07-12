@@ -1,0 +1,15 @@
+# OS system files
+.DS_Store
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Environment files (if you ever use one)
+.env
+.env.*
+
+# Node or build tools (if added later)
+node_modules/
+dist/
+build/
