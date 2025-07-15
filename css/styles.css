@@ -1,0 +1,50 @@
+/* 1. Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Navbar */
+.navbar {
+  background: linear-gradient(90deg, #121c2d, #1c2033);
+  box-shadow: 0 0 10px #0ff2f2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff66c4 !important;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #00ffff !important;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+.text-neon {
+  color: #ff66c4;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #444;
+}

@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NeuroWitch AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
@@ -20,50 +23,48 @@
     </div>
   </nav>
 
-  <main class="container my-5">
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="..." alt="...">
-          <div class="caption">
-            <h3>Project 1</h3>
-            <p>sample text</p>
-            <p><a href="#" class="btn btn-default" role="button">GitHub Repo</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="..." alt="...">
-          <div class="caption">
-            <h3>Project 2</h3>
-            <p>sample text</p>
-            <p><a href="#" class="btn btn-default" role="button">GitHub Repo</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="..." alt="...">
-          <div class="caption">
-            <h3>Project 3</h3>
-            <p>sample text</p>
-            <p><a href="#" class="btn btn-default" role="button">GitHub Repo</a> </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="..." alt="...">
-          <div class="caption">
-            <h3>Project 4</h3>
-            <p>sample text</p>
-            <p><a href="#" class="btn btn-default" role="button">Github Repo</a></p>
-          </div>
+ <main class="container my-5">
+  <h1 class="text-center text-primary glow mb-5">🧠 Featured Projects</h1>
+
+  <div class="row g-4">
+    <!-- Project Card -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="card bg-dark text-light shadow-lg border border-secondary">
+        <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1 Image">
+        <div class="card-body">
+          <h5 class="card-title text-neon">Chest X-ray Classifier</h5>
+          <p class="card-text">Deep learning model trained to detect pneumonia and other conditions using X-ray data.</p>
+          <a href="#" class="btn btn-primary w-100"><i class="bi bi-github"></i> View on GitHub</a>
         </div>
       </div>
     </div>
-  </main>
+
+    <!-- Repeat -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="card bg-dark text-light shadow-lg border border-secondary">
+        <img src="assets/images/project2.jpg" class="card-img-top" alt="Project 2 Image">
+        <div class="card-body">
+          <h5 class="card-title text-neon">Brain Tumor Detection</h5>
+          <p class="card-text">A CNN-based classifier for detecting tumor regions in MRI scans using supervised learning.</p>
+          <a href="#" class="btn btn-primary w-100"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more cards below -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="card bg-dark text-light shadow-lg border border-secondary">
+        <img src="assets/images/project3.jpg" class="card-img-top" alt="Project 3 Image">
+        <div class="card-body">
+          <h5 class="card-title text-neon">Multimodal Diagnosis Assistant</h5>
+          <p class="card-text">Combines patient data and imaging to assist in real-time diagnostic decision-making.</p>
+          <a href="#" class="btn btn-primary w-100"><i class="bi bi-github"></i> View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
